@@ -1,4 +1,5 @@
 public class practice {
+//                              👇 ye formal parameter
     public static void krishna(int n1, int n2) {
         n1--;
         n2 = n2 - 2;
@@ -11,6 +12,8 @@ public class practice {
 //        1st ye print hoga phir
         System.out.println(p+":"+q);
 //        aur phir ye call hoga
+
+//       👇jaha function call hota hai wa jo parameter pass hoga wo actual parameter hota hai
         krishna(p, q);
 
 
