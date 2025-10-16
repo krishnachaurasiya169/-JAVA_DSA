@@ -37,6 +37,7 @@ public class Hashset {
 //        iterate
 //         Iterator it = set.iterator(); for loop me ek tarah se i=0 se start hota hai
 //      for( Iterator it = set.iterator();it.hasNext();)
+
 //           hasNext() ye check karega tb tk element ho waha tk chalega
           Iterator it = set.iterator();
       while(it.hasNext())
