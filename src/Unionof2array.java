@@ -11,6 +11,7 @@ public class Unionof2array {
          for (int j=0;j<n2;j++){
              set.add(arr2[j]);
          }
+        System.out.println(set);
        return set.size();
 
     }
