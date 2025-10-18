@@ -25,7 +25,8 @@ public class ticketkaroute {
         orignal.put("mumbai","delhi");
         orignal.put("goa","chennai");
         orignal.put("delhi","goa");
-
+// ab tick me orignal wale hashmap data store ho gya hai
+//        ab jo bhi hai wo tick me operation perform hoga
         String start=getStart(orignal);
         while(orignal.containsKey(start)){
             System.out.print(start+"->");
