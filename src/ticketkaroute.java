@@ -1,7 +1,6 @@
 import java.util.*;
 public class ticketkaroute
 {
-
     public static String getStart(HashMap<String,String> tick) {
 
         HashMap<String, String> revMap = new HashMap<>();
@@ -27,8 +26,8 @@ public class ticketkaroute
         orignal.put("mumbai","delhi");
         orignal.put("goa","chennai");
         orignal.put("delhi","goa");
-// ab tick me orignal wale hashmap data store ho gya hai
-//        ab jo bhi hai wo tick me operation perform hoga
+      //   ab jo bhi hai wo tick me operation perform hoga
+      //   ab tick me orignal wale hashmap data store ho gya hai
         String start=getStart(orignal);
         while (orignal.containsKey(start))
         {
