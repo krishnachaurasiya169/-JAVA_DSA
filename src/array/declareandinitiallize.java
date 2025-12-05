@@ -1,3 +1,5 @@
+package array;
+
 public class declareandinitiallize {
     public static void main(String[] args) {
 
