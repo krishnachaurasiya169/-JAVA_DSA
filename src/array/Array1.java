@@ -1,4 +1,4 @@
-
+package array;
 
 class ArraysExample {
     void demoArrays(){
@@ -18,10 +18,4 @@ age[2]=43;
             System.out.println(names[i]);
         }
     }
-}
-public class Array{
-public static void main(String[] args) {
-ArraysExample obj=new ArraysExample();
-obj.demoArrays();
-}
 }
